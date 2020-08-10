@@ -285,5 +285,8 @@ REST_FRAMEWORK = {
 
 # django-cors-headers - https://github.com/adamchainz/django-cors-headers#setup
 CORS_URLS_REGEX = r"^/api/.*$"
+
+# django-cors-whitelist - # https://github.com/adamchainz/django-cors-headers#cors_origin_whitelist
+CORS_ORIGIN_WHITELIST = env.list("CORS_ORIGIN_WHITELIST", default=[])
 # Your stuff...
 # ------------------------------------------------------------------------------
