@@ -14,7 +14,7 @@ class ProffyUserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = models.ProffyUser
-        fields = ['name', 'avatar', 'bio', 'whatsapp']
+        fields = ['name', 'avatar', 'bio', 'whatsapp', 'id']
 
 
 class ClassSerializer(serializers.ModelSerializer):
