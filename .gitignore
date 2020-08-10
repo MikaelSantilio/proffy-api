@@ -287,4 +287,6 @@ proffy_api/media/
 .env
 .envs/
 .envs/*
+.envrc
+.vscode/
 # !.envs/.local/
