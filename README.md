@@ -1,5 +1,4 @@
-## Proffy API
----
+# Proffy API
 
 [![Blog Badge](https://img.shields.io/badge/Cookiecutter%20Django-black?label=built%20with&style=flat&logo=Django&color=12100e)](https://github.com/pydanny/cookiecutter-django/)
 
@@ -16,8 +15,7 @@ provide the teachers data to the client server.
 Online 🌐: https://proffyapi.herokuapp.com/
 
 
-### Available endpoints
------------------------
+## Available endpoints
 
 
 | Method     | Endpoint        | Request                                             | Response                                 |
@@ -28,16 +26,12 @@ Online 🌐: https://proffyapi.herokuapp.com/
 | **`GET`**  | `/api/classes/`     | `params: {subject, week_day, time}`                                           | `HTTP_200_OK`<br>`[...]`                    |
 | **`GET`**  | `/api/classes/`     | `No Body` | `HTTP_200_OK`                            |
 
+## Getting Started
 
-
-
-### Getting Started
---------------
-
-#### Prerequisites
+### Prerequisites
 To run this project in the development mode, you'll need to have a basic environment with Python 3.8.x installed. To use the database, you'll need to have PostgreSQL installed or running on a container.
 
-#### Installing
+### Installing
 1. Clone the repository and enter:
 ```shell
 $ git clone https://github.com/MikaelSantilio/proffy-api/
@@ -90,13 +84,13 @@ $ python manage.py migrate
 $ python manage.py runserver 0.0.0.0:8000
 ```
 
-### License
------------
+> More in: https://cookiecutter-django.readthedocs.io/en/latest/developing-locally.html
+
+## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-### Author
------------
+## Author
 
 | [<img src="https://avatars1.githubusercontent.com/u/40041499?s=460&u=b484cfea7185c43f1a07cc8ba3a75a82cdc20b27&v=4" width=100><br><sub>@MikaelSantilio</sub>](https://github.com/MikaelSantilio) |
 | :---: |
