@@ -59,6 +59,7 @@ $ pip install -r requirements/local.txt
 export DJANGO_DEBUG=True
 export DJANGO_ALLOWED_HOSTS=127.0.0.1,0.0.0.0
 export CORS_ORIGIN_WHITELIST=127.0.0.1:3000
+
 export POSTGRES_HOST=<POSTGRES_HOST>
 export POSTGRES_PORT=<POSTGRES_PORT>
 export POSTGRES_DB=<DB_NAME>
