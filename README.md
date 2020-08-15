@@ -88,7 +88,7 @@ $ python manage.py runserver 0.0.0.0:8000
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/MikaelSantilio/proffy-api/blob/master/LICENSE) file for details.
 
 ## Author
 
