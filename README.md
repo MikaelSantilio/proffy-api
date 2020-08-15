@@ -55,7 +55,7 @@ $ pip install -r requirements/local.txt
 ```
 
 5. Set the environment variables:
-```
+```shell
 export DJANGO_DEBUG=True
 export DJANGO_ALLOWED_HOSTS=127.0.0.1,0.0.0.0
 export CORS_ORIGIN_WHITELIST=127.0.0.1:3000
