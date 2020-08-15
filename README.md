@@ -4,7 +4,7 @@
 
 
 
-| License       | MIT           |
+| License       | [MIT](https://github.com/MikaelSantilio/proffy-api/blob/master/LICENSE)           |
 | ------------- |:-------------:|
 
 This is the back-end of the Proffy application.
@@ -81,10 +81,6 @@ $ python manage.py runserver 0.0.0.0:8000
 ```
 
 > More in: https://cookiecutter-django.readthedocs.io/en/latest/developing-locally.html
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/MikaelSantilio/proffy-api/blob/master/LICENSE) file for details.
 
 ## Author
 
