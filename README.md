@@ -18,13 +18,12 @@ Online 🌐: https://proffyapi.herokuapp.com/
 ## Available endpoints
 
 
-| Method     | Endpoint        | Request                                             | Response                                 |
-| ---------- | --------------- | --------------------------------------------------- | ---------------------------------------- |
-|  |
-| **`GET`**  | `/api/connections/` | `No Body`                                           | `HTTP_200_OK`<br>`{"total": number}` |
-| **`POST`** | `/api/connections/` | `{"proffy_user": id}`                               | `HTTP_200_OK`<br>`{"total": number}` |
-| **`GET`**  | `/api/classes/`     | `params: {subject, week_day, time}`                                           | `HTTP_200_OK`<br>`[...]`                    |
-| **`GET`**  | `/api/classes/`     | `No Body` | `HTTP_200_OK`                            |
+| Method     | Endpoint            | Request                                             | Response                                 |
+| ---------- | ------------------- | --------------------------------------------------- | ---------------------------------------- |
+| **`GET`**  | `/api/connections/` | **No Body**                                           | `HTTP_200_OK`<br>**JSON Response**<ul><li>total: `number`</li> </ul> |
+| **`POST`** | `/api/connections/` | **JSON Required Fields**<ul><li>proffy_user: `number`</li> </ul>                               | `HTTP_200_OK`<br>**JSON Response**<ul><li>proffy_user: `number`</li> </ul>                                                                                                                                                                                                                               |
+| **`GET`**  | `/api/classes/`     | **GET parameters**<ul> <li>subject: `string`</li> <li>week_day: `number`</li><li>time: `string`</li></ul>| `HTTP_200_OK`<br>**JSON Response**<ul><li>`Array`<ul><li>subject: `string`</li><li>cost: `string`</li><li>proffy_user: </li><ul><li>name: `string`</li><li>avatar: `string`</li><li>bio: `string`</li><li>whatsapp: `string`</li></ul></ul></li> </ul>|
+| **`POST`** | `/api/classes/`     | **JSON Required Fields**<ul><li>name: `string`</li><li>avatar: `string`</li><li>whatsapp: `string`</li><li>bio: `string`</li><li>subject: `string`</li><li>cost: `number`</li><li>schedule: `Array`<ul><li>week_day: `number`</li><li>start_at: `string`</li><li>end_at: `string`</li></ul></li> </ul>| `HTTP_200_OK`                                                                                     |
 
 ## Getting Started
 
